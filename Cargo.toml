@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.93"
+itertools = "0.13.0"
 reqwest = "0.12.9"
 serde = { version = "1.0.215", features = ["derive"] }
 tokio = { version = "1.41.1", features = ["full"] }
